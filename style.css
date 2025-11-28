@@ -837,17 +837,12 @@ section:nth-child(odd) .animate.scroll,
 
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     html {
         font-size: 55%;
     }
-    
-    .home {
-        gap: 1.5rem;
-    }
-    
     .home-content {
-        max-width: 50rem;
+        max-width: 100%;
     }
     
     .home-img {
@@ -871,7 +866,7 @@ section:nth-child(odd) .animate.scroll,
     }
 
     .home {
-        padding: 0 4%;
+        padding: 10rem 4%;
         flex-direction: column;
         text-align: center;
         gap: 3rem;
@@ -1010,6 +1005,7 @@ section:nth-child(odd) .animate.scroll,
         justify-content: center;
         max-width: 30rem;
         margin: 0 auto;
+        gap: 2rem;
     }
 }
 
@@ -1078,8 +1074,8 @@ section:nth-child(odd) .animate.scroll,
     .home {
         position: relative;
         flex-direction: column;
-        gap: 2rem;
         padding: 2rem 4%;
+        padding-top: 10rem;
     }
     
     .home-sci {
@@ -1153,6 +1149,7 @@ section:nth-child(odd) .animate.scroll,
     .home {
         justify-content: center;
         padding: 2rem 4%;
+        padding-top: 10rem;
         min-height: calc(100vh - 10rem);
         position: relative;
     }
